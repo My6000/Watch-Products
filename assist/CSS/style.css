@@ -1,0 +1,75 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+.PrductN img:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+
+
+
+
+
+.Prduct1{
+    position: relative;
+}
+
+
+
+.addCard{
+    position: absolute;
+    left: 3%;
+    bottom: 17%;
+    width: 95%;
+}
+
+
+
+
+.Prduct1 .addCard{
+    display: none;
+}
+
+
+
+
+.Prduct1 img:hover ~ .addCard{
+    display: block;
+}
+
+
+.addCard:hover{
+    display: block;
+}
+
+
+.Prduct1 p{
+    background: #E5DBDB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
