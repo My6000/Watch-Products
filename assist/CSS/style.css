@@ -31,10 +31,14 @@
 
 .addCard{
     position: absolute;
-    left: 3%;
-    bottom: 17%;
-    width: 95%;
+    left: 0%;
+    bottom: 100px;
+    width: 100%;
+    text-decoration: none;
 }
+
+
+
 
 
 
@@ -51,9 +55,13 @@
 }
 
 
-.addCard:hover{
+
+.Prduct1 .addCard:hover{
     display: block;
 }
+
+
+
 
 
 .Prduct1 p{
